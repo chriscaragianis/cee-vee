@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div id="wrapper">
@@ -9,41 +11,40 @@
           Chris Caragianis
         </div>
         <div id="nav-menu">
-          <span>Who am i</span>
-          <span>Experience</span>
-          <span>Education</span>
-          <span>Portfolio</span>
-          <span>Clean code</span>
-          <span>Get in touch</span>
-        <div>
+          <li>Who am i</li>
+          <li>Experience</li>
+          <li>Education</li>
+          <li>Portfolio</li>
+          <li>Clean code</li>
+          <li>Get in touch</li>
+        </div>
       </header>
-      <div id="body-wrap">
-        <section id="whoami">
-          A section about the awesome me
-        </section>
-        <section id="experience">
-          Some things I did
-        </section>
-        <section id="portfolio">
-          <div>
-            The Pleonast
-          </div>
-          <div>
-            This Resume
-          </div>
-          <div>
-            The Affine Cipher
-          </div>
-        </section>
-        <section id="education">
-          A bunch of school i went to
-        </section>
-        <section id="clean-code">
-          {% include _hhtweet.html %}
-        </section>
-        <section id="get-in-touch">
-          Some ways to get a hold of me
-        </section>
+      <section id="whoami" class="odd">
+        A section about the awesome me
+      </section>
+      <section id="experience" class="even">
+        Some things I did
+      </section>
+      <section id="portfolio" class="odd">
+        <div>
+          The Pleonast
+        </div>
+        <div>
+          This Resume
+        </div>
+        <div>
+          The Affine Cipher
+        </div>
+      </section>
+      <section id="education" class="even">
+        A bunch of school i went to
+      </section>
+      <section id="clean-code" class="odd">
+        {% include _hhtweet.html %}
+      </section>
+      <section id="get-in-touch" class="even">
+        Some ways to get a hold of me
+      </section>
       </div>
     </div>
   </body>
