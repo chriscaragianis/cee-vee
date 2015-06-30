@@ -1,6 +1,25 @@
+
+
+/*  Small Screen */
+
+  
+  header {
+    background-color: red;
+    height: 8rem:
+  }
+
+
+/* hide sidebars */
+  .left-arrow, .right-arrow {
+    display: none;
+  }
+
+
+
+
 /*  Medium Screen */
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
 
   header {
     background-color: pink;
@@ -9,17 +28,3 @@
 }
 
 
-
-/*  Small Screen */
-
-@media screen and (max-width: 600px) {
-  
-  header {
-    background-color: red;
-  }
-
-/* hide sidebars */
-  .left-arrow, .right-arrow {
-    display: none;
-  }
-}
