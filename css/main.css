@@ -7,6 +7,10 @@
   display: none;
 }
 
+.br-clear {
+  clear: both;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
 }
@@ -43,43 +47,58 @@ header {
   display: inline-block;
 }
 
-
-section {
- /* This is temporary */
-  height: 800px;
+.spacer {
+  height: 10%;
+  background-color: violet;
 }
 
+.slide-tile-container {
+  width: 80%;
+}
+
+.left-arrow {
+  width: 10%;
+}
+
+.right-arrow {
+  width: 10%
+}
+.slide-tile {
+  background-color: tomato;
+  width: 100%;
+}
+
+.slide-tile ul {
+  float: right;
+  clear: both;
+  list-style: none;
+  margin-right: 5%;
+}
+
+.slide-tile li{
+  background-color: darkblue;
+  height: 100px;
+  width: 100px;
+}
 table {
   background-color: wheat;
   width: 100%;
-  height: 800px;
+  height: 700px;
+  border: 1px solid black;
+  border: collapse;
+}
+
+table td {
+  border: 1px solid black;
 }
 
 .contrast {
   background-color: lime;
 }
 
-table 
-section span {
-  width: 20%;
-  background-color: forestgreen;
-  height: 600px;
-  position: absolute;
-  margin-top: 100px;
-}
 
 .right-arrow {
   right: 0;
-}
-
-section .slide-tile {
-  background-color: tomato;
-  display: block;
-  width: 60%;
-  margin-left: 20%;
-  position: absolute;
-  height: 600px;
-  margin-top: 100px;
 }
 
 .thumbs {
@@ -95,6 +114,7 @@ section .slide-tile {
   background-color: violet;
   right: 0;
 }
+
 #whoami {
   margin-top: 4rem;
 }

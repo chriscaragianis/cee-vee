@@ -4,6 +4,8 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
   </head>
   <body>
     <div id="wrapper">
@@ -14,13 +16,13 @@
         <div id="nav-menu">
           <li>Who am i</li>
           <li>Experience</li>
-          <li>Education</li>
           <li>Portfolio</li>
+          <li>Education</li>
           <li>Clean code</li>
           <li>Get in touch</li>
         </div>
       </header>
-      <table>
+      <table id="whoami">
         <tr class="spacer">
           <td colspan=3>top</td>
         </tr>
@@ -33,67 +35,121 @@
         </tr>
         <tr class="spacer">
           <td colspan=3>bottom</td>
+        </tr>
       </table>
-      <table class="contrast">
+      <table id="experience" >
         <tr class="spacer">
           <td colspan=3>top</td>
         </tr>
         <tr>
           <td class="left-arrow">left</td>
           <td class="slide-tile-container">
-            A section about the awesome mei
+            <div class="slide-tile">
+              Things what I did
+              <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+              </ul>
+            <br class="br-clear"/>
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              This Resume
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              The Affine Cipher
+            </div>
           </td>
           <td class="right-arrow">right</td>
         </tr>
         <tr class="spacer">
           <td colspan=3>bottom</td>
+        </tr>
       </table>
-      <span class="left-arrow"></span>
-      <section id="portfolio" class="odd">
-         <span class="left-arrow"></span>
-         <div class="slide-tile">
-           The Pleonast
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           This Resume
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           The Affine Cipher
-         </div>
-         <span class="right-arrow"></span>
-      </section>
-      <section id="education" class="even">
-         <span class="left-arrow"></span>
-         <div class="slide-tile">
-           Doctorate
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           M.A.Ed
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           Education history
-         </div>
-         <span class="right-arrow"></span>
-      </section>
-      <section id="clean-code" class="odd">
-         <span class="left-arrow"></span>
-         <div class="slide-tile">
-           {% include _hhtweet.html %}
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           The rules
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           Test driven
-         </div>
-         <div class="slide-tile TEMP-hidden">
-           Future oriented
-         </div>
-         <span class="right-arrow"></span>
-      </section>
-      <section id="get-in-touch" class="even">
-        Some ways to get a hold of me
-      </section>
+      <table id="portfolio">
+        <tr class="spacer">
+          <td colspan=3>top</td>
+        </tr>
+        <tr>
+          <td class="left-arrow">left</td>
+          <td class="slide-tile-container">
+            <div class="slide-tile">
+              The Pleonast
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              This Resume
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              The Affine Cipher
+            </div>
+          </td>
+          <td class="right-arrow">right</td>
+        </tr>
+        <tr class="spacer">
+          <td colspan=3>bottom</td>
+        </tr>
+      </table>
+      <table id="education" >
+        <tr class="spacer">
+          <td colspan=3>top</td>
+        </tr>
+        <tr>
+          <td class="left-arrow">left</td>
+          <td class="slide-tile-container">
+            <div class="slide-tile">
+              Doctorate
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              M.A.Ed
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              Education history
+            </div>
+          </td>
+          <td class="right-arrow">right</td>
+        </tr>
+        <tr class="spacer">
+          <td colspan=3>bottom</td>
+        </tr>
+      </table>
+      <table id="clean-code">
+        <tr class="spacer">
+          <td colspan=3>top</td>
+        </tr>
+        <tr>
+          <td class="left-arrow">left</td>
+          <td class="slide-tile-container">
+            <div class="slide-tile">
+              The Pleonast
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              This Resume
+            </div>
+            <div class="slide-tile TEMP-hidden">
+              The Affine Cipher
+            </div>
+          </td>
+          <td class="right-arrow">right</td>
+        </tr>
+        <tr class="spacer">
+          <td colspan=3>bottom</td>
+        </tr>
+      </table>
+      <table id="contact" >
+        <tr class="spacer">
+          <td colspan=3>top</td>
+        </tr>
+        <tr>
+          <td class="left-arrow">left</td>
+          <td class="slide-tile-container">
+            How to get "aholt" of me
+          </td>
+          <td class="right-arrow">right</td>
+        </tr>
+        <tr class="spacer">
+          <td colspan=3>bottom</td>
+        </tr>
+      </table>
       </div>
     </div>
   </body>
