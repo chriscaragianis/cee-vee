@@ -1,30 +1,58 @@
 
+/*****************
+/  Small Screen  /
+/****************/
 
-/*  Small Screen */
+header {
+  background-color: red;
+  height: 10rem:
+  font-size: 1rem;
+}
 
-  
-  header {
-    background-color: red;
-    height: 8rem:
-  }
-
+#title-bar {
+  text-align: center;
+  height: 100%;
+}
+ 
+#nav-menu {
+  text-align: center;   
+  padding: 0;
+}
 
 /* hide sidebars */
-  .left-arrow, .right-arrow {
-    display: none;
-  }
 
-
-
-
-/*  Medium Screen */
-
-@media screen and (min-width: 900px) {
-
-  header {
-    background-color: pink;
-    height: 6rem;
-  }
+.left-arrow, .right-arrow {
+  display: none;
 }
 
 
+
+/******************
+/ Medium  Screen  /
+/*****************/
+
+/* No change for now! */
+
+
+/******************
+/ Desktop Screen  /
+/*****************/
+
+@media screen and (min-width: 900px) {
+  .left-arrow {
+    display: block;
+  }
+ 
+  .right-arrow {
+    display: block;
+  } 
+
+  #title-bar {
+    float: left;
+  }
+ 
+  #nav-menu {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+}
