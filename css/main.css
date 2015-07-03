@@ -1,6 +1,6 @@
 
 * {
-  box-sizing: border-box;i
+  box-sizing: border-box;
 }
 
 .TEMP-hidden {
@@ -28,7 +28,7 @@ header {
 
 
 
-#nav-menu {
+.nav-menu {
   font-size: 1rem;
   background-color: rgba(200,0,0,0);
   display: block;
@@ -37,10 +37,11 @@ header {
   margin: 0; 
 }
 
-#nav-menu ul {
-  
+.slide-control {
+  z-index: 1;
 }
-#nav-menu li {
+
+.nav-menu li {
   background-color: lime;
   display: inline-block;
 }
