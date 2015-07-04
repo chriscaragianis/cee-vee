@@ -26,6 +26,9 @@ header {
    z-index: 2;
 }
 
+ul {
+  list-style: none;
+}
 
 
 .nav-menu {
@@ -38,10 +41,10 @@ header {
 }
 
 .slide-control {
-  z-index: 1;
+
 }
 
-.nav-menu li {
+li {
   background-color: lime;
   display: inline-block;
 }

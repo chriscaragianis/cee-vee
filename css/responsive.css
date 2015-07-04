@@ -19,6 +19,11 @@ header {
   padding: 0;
 }
 
+.slide-control {
+  text-align: center;
+}
+
+
 /* hide sidebars */
 
 .left-arrow, .right-arrow {
