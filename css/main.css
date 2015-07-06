@@ -103,19 +103,6 @@ table td {
   right: 0;
 }
 
-.thumbs {
-  float: right;
-  margin-right: 5%;
-  position: absolute;
-}
-
-.thumbs li {
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-color: violet;
-  right: 0;
-}
 
 #whoami {
   margin-top: 4rem;
@@ -128,4 +115,16 @@ table td {
 
 .even {
   background-color: lightgray;
+}
+
+.dismiss {
+  display: none;
+  float: right;
+  bottom: 0;
+  text-align: center;
+  width: 5em;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  box-shadow: inset 0 0 10px #ccc;
 }
