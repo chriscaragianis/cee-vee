@@ -15,14 +15,12 @@ function setThumbs() {
 
 $('.dismiss').on('click', function() {
   $(this).hide();
-  $(this).parent().siblings().show();
+  $(this).parent().css('width', '100px');
+  $(this).parent().css('left', '0');
   $(this).parent().css('position', 'relative');
-  $(this).parent().animate({
-    width: '100px',
-    left: 0
-    }, 400, function() {
-  });
-  setTimeout(setThumbs, 500);
+  setTimeout(function() {
+    setThumbs();
+    }, 5);
 });
 
 setThumbs();
