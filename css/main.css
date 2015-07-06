@@ -16,8 +16,7 @@
 
 body {
   font-family: 'Roboto Slab', serif;
-  background-size: cover; 
-  background-image: url('../assets/3.jpg');
+  background-attachment: fixed;
 }
 
 ul {
@@ -67,17 +66,44 @@ table {
 }
 
 #whoami {
-  background-size: 100%;
+  background: linear-gradient(to right, transparent, white 100%),
+    url('../assets/3_1.jpg') no-repeat;
+  background-size: 50%; 
 }
+
+#experience {
+  background: linear-gradient(to left, transparent, white 100%),
+    url('../assets/5_1.jpg') top right no-repeat;
+  background-size: 50%; 
+}
+
+#portfolio {
+  background: linear-gradient(to right, transparent, white 100%),
+    url('../assets/2_1.jpg') no-repeat;
+  background-size: 50%; 
+}
+
+#education {
+  background: linear-gradient(to left, transparent, white 100%),
+    url('../assets/6_1.jpg') top right no-repeat;
+  background-size: 50%; 
+}
+
+#clean-code {
+  background:  linear-gradient(to right, transparent, white 100%),
+    url('../assets/4_1.jpg') no-repeat;
+  background-size: 50%; 
+}
+
 
 table td {
   border: 0;
-  opacity: 0;
-}
+  background-color: rgba(0,0,0,0)};
+
 
 .spacer {
   height: 10%;
-  background-color: violet;
+  opacity: 0;
 }
 
 .slide-tile-container {
@@ -94,7 +120,8 @@ table td {
 }
 
 .slide-tile {
-  background-color: tomato;
+  opacity 1;
+  background-color: rgba(0,0,0,0);
   width: 100%;
 }
 
