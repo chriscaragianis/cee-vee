@@ -74,8 +74,9 @@ table td {
 
 
 .spacer {
+  background-color: rgba(0,0,0,0);
   height: 10%;
-  opacity: 0;
+  color: slategray;
 }
 
 .slide-tile-container {
@@ -98,7 +99,6 @@ table td {
 }
 
 .slide-tile ul {
-  float: right;
   clear: both;
   list-style: none;
   margin-right: 5%;
@@ -110,6 +110,16 @@ table td {
   width: 100px;
 }
 
+.content ul {
+}
+
+.content li {
+  display: block;
+  background-color: rgba(0,0,0,0);
+  height: auto;
+  width: auto;
+  color: black;
+}
 #whoami {
   margin-top: 4rem;
 }
