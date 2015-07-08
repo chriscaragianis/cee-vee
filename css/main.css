@@ -117,34 +117,8 @@ table td {
   margin-right: 5%;
 }
 
-.slide-tile li{
-  background-color: darkblue;
-  height: 100px;
-  width: 100px;
-}
-
-.content ul {
-}
-
-.content li {
-  display: block;
-  background-color: rgba(0,0,0,0);
-  height: auto;
-  width: auto;
-  color: black;
-}
 #whoami {
   margin-top: 4rem;
 }
 
-.dismiss {
-  display: none;
-  float: right;
-  bottom: 0;
-  text-align: center;
-  width: 5em;
-  margin-top: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  box-shadow: inset 0 0 10px #ccc;
 }
