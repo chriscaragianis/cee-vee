@@ -77,6 +77,7 @@ table td {
   background-color: rgba(0,0,0,0);
   height: 10%;
   color: slategray;
+  text-shadow: 0.1em 0.1em #000;
 }
 
 .slide-tile-container {
@@ -95,9 +96,12 @@ table td {
 .slide-tile {
   opacity 1;
   background-color: rgba(0,0,0,0);
-  width: 100%;
 }
 
+.odd .slide-tile {
+  text-align: right;
+  float: right;
+}
 .slide-tile ul {
   clear: both;
   list-style: none;

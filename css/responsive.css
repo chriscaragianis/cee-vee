@@ -23,6 +23,9 @@ header {
   clear: both;
 }
 
+.slide-tile {
+  width: 100%;
+}
 
 /* hide sidebars */
 
@@ -120,6 +123,10 @@ header {
   background:  linear-gradient(to right, transparent, white 100%),
     url('../assets/4_1.jpg') no-repeat;
   background-size: 50%;
+}
+
+.slide-tile {
+  width: 60%;
 }
 }
 
