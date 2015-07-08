@@ -12,10 +12,15 @@ header {
   text-align: center;
   height: 100%;
 }
+
+.landscape, .portrait {
+  display: none;
+}
  
 .nav-menu {
   text-align: center;   
   padding: 0;
+  line-height: 1.5em;
 }
 
 .slide-control {
@@ -25,6 +30,9 @@ header {
 
 .slide-tile {
   width: 100%;
+}
+
+.slide-tile img {
 }
 
 /* hide sidebars */
@@ -127,7 +135,27 @@ header {
 
 .slide-tile {
   width: 60%;
+  min-height: 60%;
 }
+
+.landscape {
+  position: absolute;
+  height: 142px;
+  left: 12%;
+  opacity: .8;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.portrait {
+  position: absolute;
+  height: 300px;
+  left: 32%;
+  opacity: .8;
+  display: block;
+}
+
+
 }
 
 

@@ -100,6 +100,7 @@ table td {
 .odd .slide-tile {
   text-align: right;
   float: right;
+  margin-bottom: 10px;
 }
 
 .odd .spacer {
