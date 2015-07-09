@@ -24,8 +24,6 @@ ul {
 }
 
 li {
-  background-color: slategray;
-  color: white;
   display: inline-block;
   padding: 5px;
 }
@@ -41,13 +39,11 @@ header {
    position: fixed;
    top: 0;
    width: 100%;  
-   font-size: 3rem;
    z-index: 2;
 }
 
 .nav-menu {
   font-size: 1rem;
-  background-color: rgba(200,0,0,0);
   display: block;
   width: 100%;
   bottom: 0;
@@ -60,7 +56,6 @@ header {
 
 table {
   width: 100%;
-  height: 100vh;
   border: 0 solid black;
   border: collapse;
 }
@@ -75,7 +70,6 @@ table td {
 
 .spacer {
   background-color: rgba(0,0,0,0);
-  height: 10%;
   color: slategray;
 }
 
@@ -96,22 +90,15 @@ table td {
 .slide-tile {
   opacity 1;
   background-color: rgba(0,0,0,0);
+  position: relative;
+  top: 0;
 }
 
-.odd .slide-tile {
-  text-align: right;
-  float: right;
-  margin-bottom: 10px;
-}
-
-.odd .spacer {
-  color: #ccc;
-} 
 
 .spacer h1 {
   font-size: 3rem;
   font-weight: normal;
-  margin-left: 2rem;
+  margin: 0 0 0 2rem;
 }
 .odd .slide-tile ul {
   clear: both;
