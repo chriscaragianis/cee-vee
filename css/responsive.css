@@ -147,21 +147,29 @@ table {
   min-height: 60%;
 }
 
+#portfolio .slide-tile {
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+#portfolio .slide-tile span {
+  
+}
+
 .landscape {
-  position: absolute;
   height: 142px;
-  left: -20vw;
   opacity: .8;
   padding-bottom: 10px;
   display: block;
+  float: left;
 }
 
 .portrait {
-  position: absolute;
   height: 300px;
-  left: -40vw;
   opacity: .8;
   display: block;
+  float: left;
 }
 
 }
