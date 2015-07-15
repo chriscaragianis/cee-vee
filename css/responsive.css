@@ -26,10 +26,11 @@ header {
   float: right;
 }
 
-.landscape, .portrait {
-  display: none;
+table {
+  margin-bottom: 10px;
+  border-bottom: 1pt solid black;
 }
- 
+
 .nav-menu {
   text-align: center;   
   padding: 0;
@@ -39,7 +40,6 @@ header {
 .slide-control {
   text-align: center;
   clear: both;
-  position: relative;
   bottom: 0;
 }
 
@@ -48,14 +48,6 @@ header {
   width: 100%;
 }
 
-.odd {
-  background-color: slategray;
-  color: white;
-}
-
-.odd h1 {
-  color: black;
-}
 img {
   display: none;
 }
