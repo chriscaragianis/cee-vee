@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+li {
+  cursor: pointer;
+}
+
 .TEMP-hidden {
   display: none;
 }
@@ -84,8 +88,7 @@ header {
 
 table {
   width: 100%;
-  border: 0 solid black;
-  border: collapse;
+  border: none;
 }
 
 
