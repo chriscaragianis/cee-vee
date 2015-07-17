@@ -1,22 +1,36 @@
-
 /*****************
 /  Small Screen  /
 /****************/
 
+
 header {
   height: 10rem:
   font-size: 1rem;
+  background-color: slategray;
+  color: white;
 }
 
 #title-bar {
   text-align: center;
   height: 100%;
+  font-size: 1.5rem;
 }
 
-.landscape, .portrait {
-  display: none;
+.greeting {
+  padding-top: 15px;
 }
- 
+
+.sig {
+  height: 100px;
+  display: block;
+  float: right;
+}
+
+table {
+  margin-bottom: 10px;
+  border-bottom: 1pt solid black;
+}
+
 .nav-menu {
   text-align: center;   
   padding: 0;
@@ -26,22 +40,14 @@ header {
 .slide-control {
   text-align: center;
   clear: both;
-  position: relative;
   bottom: 0;
 }
 
 .slide-tile {
+  text-align: center;
   width: 100%;
 }
 
-.odd {
-  background-color: slategray;
-  color: white;
-}
-
-.odd h1 {
-  color: black;
-}
 img {
   display: none;
 }
@@ -72,18 +78,39 @@ img {
   display: block;
 }
 
-header {
+#title-bar {
   font-size: 3rem;
 }
 
-li {
-  background-color: slategray;
-  color: white;
+#letter {
+  width: 30vw;
+  margin-left: 50px;
 }
-
 table {
   height: 100vh;
 }
+
+#whoami .slide-tile-container {
+  width: 60vw;
+}
+
+#whoami .slide-tile {
+  text-align: left;
+}
+
+
+.contact-info {
+  font-size: 3rem;
+}
+.greeting {
+  margin-top: 50px;
+}
+
+#letter {
+  width: 30vw;
+  margin-left: 50px;
+}
+
 .odd .slide-tile {
   text-align: right;
   float: right;
@@ -123,7 +150,6 @@ table {
     url('../assets/5_1.jpg') top right no-repeat;
   background-size: 50%;
 }
-
 #portfolio {
   background: linear-gradient(to right, transparent, white 100%),
     url('../assets/2_1.jpg') no-repeat;

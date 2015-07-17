@@ -25,11 +25,14 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 li {
   display: inline-block;
   padding: 5px;
+  background-color: slategray;
+  color: white;
 }
 
 .sig {
@@ -42,7 +45,6 @@ li {
   font-weight: bold;
   font-size: 4.5rem;
   display: block;
-  margin-top: 5%;
 }
 
 #g2 {
@@ -52,14 +54,7 @@ li {
   margin-bottom: 40px;
 }
 
-#letter {
-  width: 30vw;
-  margin-left: 50px;
-}
 
-.contact-info {
-  font-size: 3rem;
-}
 /*********************************
 * Header
 *********************************/
@@ -88,7 +83,6 @@ header {
 
 table {
   width: 100%;
-  border: none;
 }
 
 
@@ -105,14 +99,11 @@ table td {
 }
 
 .slide-tile-container {
-  width: 80%;
   height: 80%;
 }
 
 #whoami .slide-tile-container {
-  width: 60vw;
   float: right;
-  margin-top: 50px;
 }
 
 .left-arrow {
@@ -134,7 +125,6 @@ table td {
 .spacer h1 {
   font-size: 3rem;
   font-weight: normal;
-  margin: 0 0 0 2rem;
 }
 .odd .slide-tile ul {
   clear: both;
@@ -146,4 +136,4 @@ table td {
   margin-top: 4rem;
 }
 
-}
+

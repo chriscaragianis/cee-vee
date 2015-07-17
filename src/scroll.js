@@ -6,7 +6,7 @@ $('#who').on('click', function() {
 
 $('#exp').on('click', function() {
   $('html, body').animate({
-    scrollTop: $('#experience').offset().top - 50
+    scrollTop: $('#experience').offset().top - 90 
     }, 1000);
 });
 
