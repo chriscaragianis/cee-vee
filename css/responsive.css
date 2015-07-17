@@ -82,6 +82,10 @@ img {
   font-size: 3rem;
 }
 
+#letter {
+  width: 30vw;
+  margin-left: 50px;
+}
 table {
   height: 100vh;
 }
@@ -94,6 +98,10 @@ table {
   text-align: left;
 }
 
+
+.contact-info {
+  font-size: 3rem;
+}
 .greeting {
   margin-top: 50px;
 }
