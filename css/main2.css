@@ -13,3 +13,7 @@ img {
 .slide-control {
   clear: both;
 }
+
+.CV, .PJ {
+  display: none;
+}
