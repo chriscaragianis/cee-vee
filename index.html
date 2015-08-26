@@ -9,49 +9,38 @@
 <meta name="viewport" content="width=device-width">
 </head>
 <body>
-<div class="wrapper">
+<div class="container">
   <header>
-    <div id="title-bar">
-      Chris Caragianis
+    <div class="title-bar row">
+     <h1 class="four columns">Chris Caragianis</h1>
+      <ul class="nav-menu five columns u-pull-right">
+        <li id="who">Who am I?</li>
+        <li id="exp">Experience</li>
+        <li id="port">Portfolio</li>
+        <li id="edu">Education</li>
+        <li id="git">Get in touch</li>
+      </ul>
     </div>
-    <ul class="nav-menu">
-      <li id="who">Who am I?</li>
-      <li id="exp">Experience</li>
-      <li id="port">Portfolio</li>
-      <li id="edu">Education</li>
-      <li id="git">Get in touch</li>
-    </ul>
   </header>
-  <table id="whoami">
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
-    <tr>
-      <td class="left-arrow"></td>
-      <td class="slide-tile-container">
-        <span class="greeting">
-          Hi, I'm Chris.
-        </span>
-        <br/>
-        <div id="letter">
+  <div class="whoami">
+    <div class="slide-tile-container row">
+      <span class="greeting four columns">
+        Hi, I'm Chris.
+      </span>
+      <br/>
+      <div id="letter">
           I'm a computer science teacher and 
           programmer interested in future-focused projects and 
           opportunities.  I love clean code, hard problems and low ego,
           highly creative teams.  I believe we should test our code
           more and our students less.
-        </div>
-        <br/>
-        <span class="greeting" id="g2">
-          Thanks for stopping by,
-        </span>
-        <img class="sig" src="assets/sig.gif" alt="Chris Caragianis">   
-      </td>
-      <td class="right-arrow"></td>
-    </tr>
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
-  </table>
+      </div>
+      <br/>
+      <span class="greeting" id="g2">
+        Thanks for stopping by,
+      </span>
+      <img class="sig" src="assets/sig.gif" alt="Chris Caragianis">   
+  </div>
   <table id="experience">
     <tr class="spacer">
       <td colspan=3>
@@ -106,20 +95,13 @@
       <td colspan=3></td>
     </tr>
   </table>
-  <table id="portfolio" class="odd">
-    <tr class="spacer">
-      <td colspan=3>
-        <h1>portfolio</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="left-arrow">
-      </td>
-      <td class="slide-tile-container">
-        <div class="slide-tile">
-          <img class="landscape" alt="The Affine Cipher" 
+  <div id="portfolio slide-tile-container" class="odd">
+        <div class="slide-tile container">
+          <h1>portfolio</h1>
+          <div class="row">
+          <img class="landscape four columns" alt="The Affine Cipher" 
               src="assets/affine.png">
-          <img class="portrait" alt="The Affine Cipher" 
+          <img class="portrait two columns" alt="The Affine Cipher" 
               src="assets/affine2.png">
           <h2><a href="http://chriscaragianis.github.io/encryption_lesson" 
               target="_blank">The Affine Cipher</a></h2>
@@ -131,7 +113,7 @@
         </div>
         <div class="slide-tile TEMP-hidden">
           <img class="landscape" alt="cv" src="assets/resume.png">
-          <img class="portrait" alt="cv" src="assets/resume2.png">
+          <img class="pordivait" alt="cv" src="assets/resume2.png">
           <h2><a href="http://chriscaragianis.github.io/cee-vee" 
               target="_blank">CV</a></h2>
           Interactive CV. <a href="http://github.com/chriscaragianis/cee-vee" 
@@ -139,7 +121,7 @@
         </div>
         <div class="slide-tile TEMP-hidden">
           <img class="landscape" alt="Java projects" src="assets/process.gif">
-          <img class="portrait" alt="Java projects" src="assets/process2.png">
+          <img class="pordivait" alt="Java projects" src="assets/process2.png">
           <h2>Processing and Java </h2>
           Some graphics experiments using Processing and Java.
           <h3>Clouds</h3>
@@ -151,17 +133,17 @@
           <a href="http://github.com/chriscaragianis/calibingo" 
               target="_blank">Source</a>.           
         </div>
-        <ul class="slide-control">
+        <ul class="slide-condivol">
           <li class="one">one</li>
           <li class="two">two</li>
           <li class="three">three</li>
         </ul>
-      </td>
-      <td class="right-arrow"></td>
-    </tr>
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
+      </div>
+      <div class="right-arrow"></div>
+    </div>
+    <div class="spacer">
+      <div colspan=3></div>
+    </div>
   </table>
   <table id="education" >
     <tr class="spacer">

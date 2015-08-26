@@ -1,21 +1,15 @@
-$('.one').on('click', function() {
-  $($(this).parent().siblings()).hide();
-  $($(this).parent().siblings()[0]).fadeIn(200);
+$('.CV-control').on('click', function() {
+  $('.AC').hide();
+  $('.PJ').hide();
+  $('.CV').show();
 });
-$('.two').on('click', function() {
-  $($(this).parent().siblings()).hide();
-  $($(this).parent().siblings()[1]).fadeIn(200);
+$('.AC-control').on('click', function() {
+  $('.CV').hide();
+  $('.PJ').hide();
+  $('.AC').show();
 });
-$('.three').on('click', function() {
-  $($(this).parent().siblings()).hide();
-  $($(this).parent().siblings()[2]).fadeIn(200);
+$('.PJ-control').on('click', function() {
+  $('.CV').hide();
+  $('.AC').hide();
+  $('.PJ').show();
 });
-$('.four').on('click', function() {
-  $($(this).parent().siblings()).hide();
-  $($(this).parent().siblings()[3]).fadeIn(200);
-});
-$('.five').on('click', function() {
-  $($(this).parent().siblings()).hide();
-  $($(this).parent().siblings()[4]).fadeIn(200);
-});
-

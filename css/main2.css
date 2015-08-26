@@ -1,0 +1,15 @@
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+.slide-control {
+  clear: both;
+}

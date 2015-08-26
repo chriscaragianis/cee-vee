@@ -44,7 +44,6 @@ table {
 
 .slide-tile {
 	text-align: center;
-	width: 100%;
 }
 
 img {
@@ -82,7 +81,6 @@ img {
 	}
 
 	#letter {
-		width: 30vw;
 		margin-left: 50px;
 	}
 	table {
@@ -94,10 +92,8 @@ img {
 		float: none;
 	}
 	.slide-tile-container {
-		width: 80%;
 	}
 	#whoami .slide-tile-container {
-		width: 60vw;
 	}
 
 	#whoami .slide-tile {
@@ -113,13 +109,11 @@ img {
 	}
 
 	#letter {
-		width: 30vw;
 		margin-left: 50px;
 	}
 
 	.odd .slide-tile {
 		text-align: right;
-		float: right;
 		margin-bottom: 10px;
 	}
 
@@ -136,7 +130,6 @@ img {
 	} 
 
 	#title-bar {
-		float: left;
 	}
 
 	.nav-menu {
@@ -176,34 +169,15 @@ img {
 	}
 
 	.slide-tile {
-		width: 60%;
 		min-height: 60%;
-		text-align: left;
 	}
 
 	#portfolio .slide-tile {
-		width: 100%;
 		color: black;
-		text-align: center;
 	}
 
 	#portfolio .slide-tile span {
 
-	}
-
-	.landscape {
-		height: 142px;
-		opacity: .8;
-		padding-bottom: 10px;
-		display: block;
-		float: left;
-	}
-
-	.portrait {
-		height: 300px;
-		opacity: .8;
-		display: block;
-		float: left;
 	}
 
 }
