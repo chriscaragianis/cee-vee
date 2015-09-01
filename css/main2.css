@@ -9,11 +9,31 @@ li {
 img {
   width: 100%;
 }
+.header {
+  background-color: skyblue;
+}
 
 .slide-control {
   clear: both;
 }
 
-.CV, .PJ {
+.CV, .PJ, .MATH, .TEACH {
   display: none;
 }
+
+.full {
+  height: 66.67vh;;
+  background-color: tomato;
+}
+
+.columns, h3, h4, img {
+  vertical-align: bottom;
+}
+
+.top-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: beige;
+}
+
