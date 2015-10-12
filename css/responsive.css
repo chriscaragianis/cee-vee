@@ -9,7 +9,9 @@ header {
 	background-color: slategray;
 	color: white;
 }
-
+.emph {
+  background-color: #ffaaaa;
+}
 #title-bar {
 	text-align: center;
 	height: 100%;
@@ -43,8 +45,8 @@ table {
 }
 
 .slide-tile {
-	text-align: center;
 	width: 100%;
+  font-size: 0.9rem;
 }
 
 img {
@@ -184,7 +186,6 @@ img {
 	#portfolio .slide-tile {
 		width: 100%;
 		color: black;
-		text-align: center;
 	}
 
 	#portfolio .slide-tile span {

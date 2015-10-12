@@ -124,6 +124,7 @@ table td {
 .spacer h1 {
   font-size: 3rem;
   font-weight: normal;
+  padding-top: 10px;
 }
 .odd .slide-tile ul {
   clear: both;
