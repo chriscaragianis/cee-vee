@@ -98,6 +98,10 @@ img {
 	.slide-tile-container {
 		width: 80%;
 	}
+
+  .project-description {
+    margin-left: 60%;
+  } 
 	#whoami .slide-tile-container {
 		width: 60vw;
 	}
