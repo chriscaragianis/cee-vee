@@ -9,9 +9,7 @@ header {
 	background-color: slategray;
 	color: white;
 }
-.emph {
-  background-color: #ffaaaa;
-}
+
 #title-bar {
 	text-align: center;
 	height: 100%;
@@ -74,7 +72,6 @@ img {
 /*****************/
 
 @media screen and (min-device-width: 900px), screen and (min-width: 900px) {
-
 	img {
 		display: block;
 	}
@@ -192,25 +189,21 @@ img {
 		color: black;
 	}
 
-	#portfolio .slide-tile span {
-
-	}
-
-	.landscape {
+	
+.landscape {
 		height: 142px;
 		opacity: .8;
 		padding-bottom: 10px;
-		display: block;
+		display: none;;
 		float: left;
 	}
 
 	.portrait {
 		height: 300px;
 		opacity: .8;
-		display: block;
+		display: none;
 		float: left;
 	}
-
 }
 
 
