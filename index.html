@@ -1,236 +1,249 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300'
-  rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<meta name="viewport" content="width=device-width">
-</head>
-<body>
-  <header>
-    <div id="title-bar">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300'
+      rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <header>
+      <div id="title-bar">
       Chris Caragianis
-    </div>
-    <ul class="nav-menu">
-      <li id="who">Who am I?</li>
-      <li id="exp">Experience</li>
-      <li id="port">Projects</li>
-      <li id="edu">Education</li>
-      <li id="git">Get in touch</li>
-    </ul>
-  </header>
-  <table id="whoami">
-    <tr>
-      <td class="slide-tile-container">
-        <span class="greeting">
-          Hi, I'm Chris.
-        </span>
-        <br/>
-        <div id="letter">
-          I'm a computer science teacher and 
-          programmer interested in future-focused projects and 
-          opportunities.  I love clean code, hard problems and low ego,
-          highly creative teams.  I believe we should test our code
-          more and our students less.
-        </div>
-        <br/>
-        <span class="greeting" id="g2">
-          Thanks for stopping by,
-        </span>
-        <img class="sig" src="assets/sig.gif" alt="Chris Caragianis">   
-      </td>
-    </tr>
-  </table>
-  <table id="experience">
-    <tr class="spacer">
-      <td colspan=3>
-        <h1>experience</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="slide-tile-container">
-        <div class="slide-tile">
-          <h2>Summer 2015</h2>
-          <h3>Apprentice/Intern with ShareProgress</h3>
-          I participated in defining and developing social media elements of the <span class="emph">Open Supporter Data Interface API</span> (opensupporter.org).  I also assisted <a href ="http://www.shareprogress.org/about/" 
-              target="_blank">Amar Shah</a> in maintaining, testing, developing and deploying a <span class="emph">large scale Rails app.</span>
-          <h3>Code Louisville</h3>
-          I completed the front end development course, solidifying my skills in <span class="emph">HTML, CSS, Sass, JavaScript/JQuery, Bootstrap and Ember.js</span>.  This course culminated in a demonstration project in which I redesigned the Louisville Free Public Library website, implementing it as an Ember app. 
-        </div>
-        <div  class="slide-tile TEMP-hidden">
-          <h2>August 2012 - Present</h2>
-          <h3>Math Teacher, North Bullitt High School</h3>
-In addition to completing the Kentucky Teacher Intership Program, I <span class="emph">collaborated with a diverse team</span> of educators in the ongoing development of the Transitional Math and Integrated Math courses. 
-          <h3>Computer Science Teacher, Fern Creek High School</h3>
-I played a crucial role in designing two new courses for the Computer Science program at Fern Creek, the <span class="emph">only four year public school CS curriculum in the Louisville area</span>.   My team implemented a Computer Literacy course modeled after UCLA's Exploring Computer Science and an AP Computer Science Principles course modeled after UC Berkeley's Beauty and Joy of Computing.  I <span class="emph">taught students to program in Java</span>, and prepared them for the AP Computer Science exam. 
-        </div>
-        <div class="slide-tile TEMP-hidden">
-          <h2>August 2010-September 2012</h2>
-          <h3>Research Assistant, Logistics and Distribution Institute</h3>
-I presented <span class="emph">research into computational and extremal problems of restricted matchings on graphs</span> to industry and University partners.  This included applications to rapid trading software, cloud administration, and scheduling.
-        </div>
-        <ul class="slide-control">
-          <li class="one">Sum 2015</li>
-          <li class="two">2012-15</li>
-          <li class="three">2010-12</li>
-        </ul>
-      </td>
-    </tr>
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
-  </table>
-  <table id="portfolio" class="odd">
-    <tr class="spacer">
-      <td colspan=3>
-        <h1>projects</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="slide-tile-container">
-        <div class="slide-tile">
-          <img class="landscape" alt="The Affine Cipher" 
-              src="assets/affine.png">
-          <img class="portrait" alt="The Affine Cipher" 
-              src="assets/affine2.png">
-          <div class="project-description">
-            <h2><a href="http://chriscaragianis.github.io/encryption_lesson"
-              target="_blank">The Affine Cipher</a></h2>
-              A virtual manipulative to support a lesson on affine ciphers.  Students choose cipher parameters and enter a plaintext message. <span class="emph">(HTML/CSS, JQuery, Bootstrap)</span>
-
-            <br/>
-            <a href="http://github.com/chriscaragianis/encryption_lesson" target="_blank">Source</a>.
-            <br class="br-clear"/>
+      </div>
+      <ul class="nav-menu">
+        <li id="who">Who am I?</li>
+        <li id="exp">Experience</li>
+        <li id="port">Projects</li>
+        <li id="edu">Education</li>
+        <li id="git">Get in touch</li>
+      </ul>
+    </header>
+    <table id="whoami">
+      <tr>
+        <td class="slide-tile-container">
+          <span class="greeting">
+            Hi, I'm Chris.
+          </span>
+          <br/>
+          <div id="letter">
+            I'm a computer science teacher and
+            programmer interested in future-focused projects and
+            opportunities.  I love clean code, hard problems and low ego,
+            highly creative teams.  I believe we should test our code
+            more and our students less.
           </div>
-        </div>
-        <div class="slide-tile TEMP-hidden">
-          <img class="landscape" alt="cv" src="assets/resume.png">
-          <img class="portrait" alt="cv" src="assets/resume2.png">
-          <h2><a href="http://development.lfpl.divshot.io/" 
-              target="_blank">LFPL</a></h2>
-            A demonstration project completed for Code Louisville's front end 
-            development course. This is a teardown and rebuild of the Louisville
-            Free Public Library website.  I implemented the site as an Ember.js
-            app to facilitate code organizations and content migration.  This
-            project is under active development.  .  <a href="http://github.com/chriscaragianis/lfpl_ember" 
-              target="_blank">Source</a>.
-        </div>
-        <div class="slide-tile TEMP-hidden">
-          <img class="landscape" alt="Java projects" src="assets/process.gif">
-          <img class="portrait" alt="Java projects" src="assets/process2.png">
-          <h2>Processing and Java </h2>
-          Some graphics experiments using Processing and Java.
-          <h3>Clouds</h3>
-          Creating clouds by measuring volatility in Conway's game of life.
-          <a href="http://github.com/chriscaragianis/clouds" target="_blank">
-              Source</a>.           
-          <h3>Calibingo</h3>
-          Bingo card generator for my daughter's school project. Soo cute. 
-          <a href="http://github.com/chriscaragianis/calibingo" 
-              target="_blank">Source</a>.           
-        </div>
-        <ul class="slide-control">
-          <li class="one">one</li>
-          <li class="two">two</li>
-          <li class="three">three</li>
-        </ul>
-      </td>
-    </tr>
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
-  </table>
-  <table id="education" >
-    <tr class="spacer">
-      <td colspan=3>
-        <h1>education</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="slide-tile-container">
-        <div class="slide-tile">
-          <h2>Degrees</h2>
-          <strong>B.S.</strong>, Mathematics; University of Louisville <br/>
-          <strong>M.A.</strong>, Mathematics; University of Louisville <br/>
-          <strong>Ph.D</strong>, Mathematics; University of Louisville <br/>
-          <strong>M.A.T.</strong>, Secondary Mathematics (Alt Cert); University
-            of Louisville <br/>
-        </div>
-        <div class="slide-tile TEMP-hidden">
-          <h2> Dissertation: <em><a href=
-                "http://ir.library.louisville.edu/cgi/viewcontent.cgi?article=1205&context=etd" 
-                target="_blank">Connected matchings in special familes of 
-                graphs</a></em>.</h2>
-          Studied extremal and computational problems of "connected matchings",
-          a graph matching in which no two edges have mutually non-adajcent 
-          endpoints. Applications include cloud administration, and the 
-          bipartite margin shop problem.  
-        </div>
-        <div class="slide-tile TEMP-hidden">
-          <h2>Other research projects</h2>
-          <h3>Perfomance of Covert Networks</h3>
-          Studied the properties of graphs modeling networks of covert 
-          operatives vulnerable to "subversion". Determines the optimal tree 
-          structure for such a network under a performance measure suggested by 
-          <a href="assets/doty.pdf" target="_blank">Doty</a>. (<a href=
-            "assets/covnets.pdf" target="_blank">Slides</a> from 2011 talk 
-            at Joint Mathematical Meetings.) 
-          <h3>Totally Antimagic Graphs</h3>
-          An <em>antimagic graph labeling</em> is a consecutive {1,2,...,e} 
-          edge labeling with the property that the sum of labels incident to 
-          each vertex is distinct.  This research characterizes <em>totally 
-          antimagic graphs</em>, i.e., graphs that admit no consecutive edge 
-          labelings that are not antimagic.
-        </div>
-        <ul class="slide-control">
-          <li class="one">Degrees</li>
-          <li class="two">Dissertation</li>
-          <li class="three">Projects</li>
-        </ul>
-      </td>
-    </tr>
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
-  </table>
-  <table id="contact" >
-    <tr class="spacer">
-      <td colspan=3>
-        <h1>contact</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="slide-tile-container">
-        <ul class="contact-info">
-          <li class="phone">Voice/SMS&nbsp; &nbsp;&nbsp;<a href="tel:555-5555">
-            502-407-7076</a></li>
-          <li class="mail">Email &nbsp;&nbsp;&nbsp;<a href
-            ="mailto:me@myplace.com">chriscaragianis@gmail.com</a></li> 
-          <li class="twitter">Twitter &nbsp;&nbsp;&nbsp;<a href=
-            "http://twitter.com/intent/tweet?screen_name=brohammersdad">
-            @brohammersdad</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr class="spacer">
-      <td colspan=3></td>
-    </tr>
-  </table>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          <br/>
+          <span class="greeting" id="g2">
+            Thanks for stopping by,
+          </span>
+          <img class="sig" src="assets/sig.gif" alt="Chris Caragianis">
+        </td>
+      </tr>
+    </table>
+	  <table id="experience">
+	    <tr class="spacer">
+	      <td colspan=3>
+	        <h1>experience</h1>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="slide-tile-container">
+	        <div class="slide-tile">
+	          <h2>Summer 2015</h2>
+	          <h3>Apprentice/Intern with ShareProgress</h3>
+	          I participated in defining and developing social media elements
+            of the <span class="emph">Open Supporter Data Interface API</span>
+            (opensupporter.org).  I also assisted <a href =
+            "http://www.shareprogress.org/about/" target="_blank">Amar Shah
+            </a> in maintaining, testing, developing and deploying a <span
+            class="emph">large scale Rails app.</span>
 
-ga('create', 'UA-65220939-1', 'auto');
-ga('send', 'pageview');
+            <h3>Code Louisville</h3>
+	          I completed the front end development course, solidifying my skills
+            in <span class="emph">HTML, CSS, Sass, JavaScript/JQuery, Bootstrap
+            and Ember.js</span>.  This course culminated in a demonstration
+            project in which I redesigned the Louisville Free Public Library
+            website, implementing it as an Ember app.
+	        </div>
+	        <div class="slide-tile TEMP-hidden">
+	          <h2>August 2012 - Present</h2>
+	          <h3>Math Teacher, North Bullitt High School</h3>
+	          In addition to completing the Kentucky Teacher Intership Program,
+            I <span class="emph">collaborated with a diverse team</span> of
+            educators in the ongoing development of the Transitional Math and
+            Integrated Math courses.
+	          <h3>Computer Science Teacher, Fern Creek High School</h3>
+	          I played a crucial role in designing two new courses for the
+            Computer Science program at Fern Creek, the <span class="emph">only
+            four year public school CS curriculum in the Louisville area</span>.
+            My team implemented a Computer Literacy course modeled after UCLA's
+            Exploring Computer Science and an AP Computer Science Principles
+            course modeled after UC Berkeley's Beauty and Joy of Computing.  I
+            <span class="emph">taught students to program in Java</span>, and
+            prepared them for the AP Computer Science exam.
+	        </div>
+	        <div class="slide-tile TEMP-hidden">
+	          <h2>August 2010-September 2012</h2>
+	          <h3>Research Assistant, Logistics and Distribution Institute</h3>
+	          I presented <span class="emph">research into computational and
+            extremal problems of restricted matchings on graphs</span> to
+            industry and University partners.  This included applications to
+            rapid trading software, cloud administration, and scheduling.
+	        </div>
+	        <ul class="slide-control">
+	          <li class="one">Sum 2015</li>
+	          <li class="two">2012-15</li>
+	          <li class="three">2010-12</li>
+	        </ul>
+	      </td>
+	    </tr>
+	  </table>
+	  <table id="portfolio" class="odd">
+	    <tr class="spacer">
+	      <td colspan=3>
+	        <h1>projects</h1>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="slide-tile-container">
+	        <div class="slide-tile">
+	          <img class="landscape" alt="The Affine Cipher"
+	              src="assets/affine.png">
+	          <img class="portrait" alt="The Affine Cipher"
+	              src="assets/affine2.png">
+	          <div class="project-description">
+	            <h2><a href="http://chriscaragianis.github.io/encryption_lesson"
+	              target="_blank">The Affine Cipher</a></h2>
+	              A virtual manipulative to support a lesson on affine ciphers.
+                Students choose cipher parameters and enter a plaintext message.
+                <span class="emph">(HTML/CSS, JQuery, Bootstrap)</span>
+	            <br/>
+	            <a href="http://github.com/chriscaragianis/encryption_lesson" target="_blank">Source</a>.
+	            <br class="br-clear"/>
+	          </div>
+	        </div>
+	        <div class="slide-tile TEMP-hidden">
+	          <img class="landscape" alt="cv" src="assets/resume.png">
+	          <img class="portrait" alt="cv" src="assets/resume2.png">
+	          <h2><a href="http://development.lfpl.divshot.io/"
+	              target="_blank">LFPL</a></h2>
+	          A demonstration project completed for Code Louisville's front end
+	          development course. This is a teardown and rebuild of the Louisville
+	          Free Public Library website.  I implemented the site as an Ember.js
+	          app to facilitate code organizations and content migration.  This
+	          project is under active development. 
+            <br/>
+            <a href="http://github.com/chriscaragianis/lfpl_ember"
+	            target="_blank">Source</a>.
+	        </div>
+	        <div class="slide-tile TEMP-hidden">
+	          <img class="landscape" alt="Java projects" src="assets/process.gif">
+	          <img class="portrait" alt="Java projects" src="assets/process2.png">
+	          <h2>Processing and Java </h2>
+	          Some graphics experiments using Processing and Java.
+	          <h3>Clouds</h3>
+	          Creating clouds by measuring volatility in Conway's game of life.
+	          <a href="http://github.com/chriscaragianis/clouds" target="_blank">
+	              Source</a>.
+	          <h3>Calibingo</h3>
+	          Bingo card generator for my daughter's school project. Soo cute.
+	          <a href="http://github.com/chriscaragianis/calibingo"
+	              target="_blank">Source</a>.
+	        </div>
+	        <ul class="slide-control">
+	          <li class="one">one</li>
+	          <li class="two">two</li>
+	          <li class="three">three</li>
+	        </ul>
+	      </td>
+	    </tr>
+	  </table>
+	  <table id="education">
+	    <tr class="spacer">
+	      <td colspan=3>
+	        <h1>education</h1>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="slide-tile-container">
+	        <div class="slide-tile">
+	          <h2>Degrees</h2>
+	          <strong>B.S.</strong>, Mathematics; University of Louisville <br/>
+	          <strong>M.A.</strong>, Mathematics; University of Louisville <br/>
+	          <strong>Ph.D</strong>, Mathematics; University of Louisville <br/>
+	          <strong>M.A.T.</strong>, Secondary Mathematics (Alt Cert); 
+              University of Louisville <br/>
+	        </div>
+	        <div class="slide-tile TEMP-hidden">
+	          <h2>Dissertation: <em><a href=
+	            "http://ir.library.louisville.edu/cgi/viewcontent.cgi?article=1205&context=etd"
+	            target="_blank">Connected matchings in special familes of
+	            graphs</a></em>.</h2>
+	          Studied extremal and computational problems of "connected matchings",
+	          a graph matching in which no two edges have mutually non-adajcent
+	          endpoints. Applications include cloud administration, and the
+	          bipartite margin shop problem.
+	        </div>
+	        <div class="slide-tile TEMP-hidden">
+	          <h2>Other research projects</h2>
+	          <h3>Perfomance of Covert Networks</h3>
+	          Studied the properties of graphs modeling networks of covert
+	          operatives vulnerable to "subversion". Determines the optimal tree
+	          structure for such a network under a performance measure suggested by
+	          <a href="assets/doty.pdf" target="_blank">Doty</a>. (<a href=
+	            "assets/covnets.pdf" target="_blank">Slides</a> from 2011 talk
+	            at Joint Mathematical Meetings.)
+	          <h3>Totally Antimagic Graphs</h3>
+	          An <em>antimagic graph labeling</em> is a consecutive {1,2,...,e}
+	          edge labeling with the property that the sum of labels incident to
+	          each vertex is distinct.  This research characterizes <em>totally
+	          antimagic graphs</em>, i.e., graphs that admit no consecutive edge
+	          labelings that are not antimagic.
+	        </div>
+	        <ul class="slide-control">
+	          <li class="one">Degrees</li>
+	          <li class="two">Dissertation</li>
+	          <li class="three">Projects</li>
+	        </ul>
+	      </td>
+	    </tr>
+	  </table>
+	  <table id="contact" >
+	    <tr class="spacer">
+	      <td colspan=3>
+	        <h1>contact</h1>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="slide-tile-container">
+	        <ul class="contact-info">
+	          <li class="phone">Voice/SMS&nbsp; &nbsp;&nbsp;<a href="tel:555-5555">
+	            502-407-7076</a></li>
+	          <li class="mail">Email &nbsp;&nbsp;&nbsp;<a href
+	            ="mailto:me@myplace.com">chriscaragianis@gmail.com</a></li>
+	          <li class="twitter">Twitter &nbsp;&nbsp;&nbsp;<a href=
+	            "http://twitter.com/intent/tweet?screen_name=brohammersdad">
+	            @brohammersdad</a></li>
+	        </ul>
+	      </td>
+	    </tr>
+	  </table>
+	  <script>
 
-</script>
-<script type="text/javascript" src="src/jquery-2.1.4.js"></script>
-<script type="text/javascript" src="src/slideTile.js"></script>
-<script type="text/javascript" src="src/thumbs.js"></script>
-<script type="text/javascript" src="src/scroll.js"></script>
-</body>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-65220939-1', 'auto');
+	ga('send', 'pageview');
+
+	  </script>
+	  <script type="text/javascript" src="src/jquery-2.1.4.js"></script>
+	  <script type="text/javascript" src="src/slideTile.js"></script>
+	  <script type="text/javascript" src="src/thumbs.js"></script>
+	  <script type="text/javascript" src="src/scroll.js"></script>
+	</body>
 </html>
