@@ -2,37 +2,35 @@
 * {
   box-sizing: border-box; }
 
+body {
+  font-family: 'Lato', sans-serif;
+  background-attachment: fixed; }
+
 a {
-  color: lime; }
+  color: #69d307; }
 
 a:visited {
   color: #447766; }
-
-li {
-  cursor: pointer; }
-
-.TEMP-hidden {
-  display: none; }
-
-.br-clear {
-  clear: both; }
-
-body {
-  font-family: 'Roboto Slab', serif;
-  background-attachment: fixed; }
 
 ul {
   list-style: none;
   padding: 0; }
 
 li {
+  cursor: pointer;
   display: inline-block;
   padding: 5px;
-  background-color: darkgrey;
+  background-color: slategrey;
   color: #fff; }
 
 li:hover {
-  color: lime; }
+  color: #69d307; }
+
+.TEMP-hidden {
+  display: none; }
+
+.br-clear {
+  clear: both; }
 
 .sig {
   height: 200px;
@@ -55,7 +53,8 @@ li:hover {
 *********************************/
 header {
   font-weight: 300;
-  background-color: white;
+  background-color: slategrey;
+  color: #fff;
   display: block;
   position: fixed;
   top: 0;

@@ -1,6 +1,6 @@
 $('#who').on('click', function() {
   $('html, body').animate({
-    scrollTop: $('#whoami').offset().top - 50 
+    scrollTop: $('#whoami').offset().top - 80 
     }, 400);
 });
 

@@ -1,0 +1,177 @@
+/*****************
+/  Small Screen  /
+/****************/
+
+
+
+#title-bar {
+	text-align: center;
+	height: 100%;
+	font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.greeting {
+	padding-top: 15px;
+}
+
+.sig {
+	height: 100px;
+	display: block;
+	float: right;
+}
+
+
+.nav-menu {
+	text-align: center;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+.slide-control {
+	text-align: center;
+	clear: both;
+	bottom: 0;
+}
+
+.slide-tile {
+	width: 100%;
+  font-size: 0.9rem;
+}
+
+img {
+	display: none;
+}
+
+/*
+/ Desktop Screen  /
+/*****************/
+
+@media screen and (min-device-width: 900px), screen and (min-width: 900px) {
+	img {
+		display: block;
+	}
+
+	#title-bar {
+		font-size: 3rem;
+    font-weight: normal;
+		float: left;
+	}
+
+	#letter {
+		width: 30vw;
+		margin-left: 50px;
+	}
+	table {
+		height: 100vh;
+	}
+
+	.sig {
+		height: 200px;
+		float: none;
+	}
+	.slide-tile-container {
+		width: 80%;
+	}
+
+  .project-description {
+    margin-left: 60%;
+  }
+	#whoami .slide-tile-container {
+		width: 60vw;
+	}
+
+	#whoami .slide-tile {
+		text-align: left;
+	}
+
+
+	.contact-info {
+		font-size: 3rem;
+	}
+	.greeting {
+		margin-top: 50px;
+	}
+
+	#letter {
+		width: 30vw;
+		margin-left: 50px;
+	}
+
+	.odd .slide-tile {
+		text-align: right;
+		float: right;
+		margin-bottom: 10px;
+	}
+
+	.odd .spacer {
+		color: #ccc;
+	}
+
+
+
+	.nav-menu {
+		text-align: right;
+		position: absolute;
+		bottom: 0;
+	}
+
+
+	#whoami {
+		background: linear-gradient(to right, transparent, white 100%),
+		url('../assets/3_1.jpg') no-repeat;
+		background-size: 50%;
+	}
+
+	#experience {
+		background: linear-gradient(to left, transparent, white 100%),
+		url('../assets/5_1.jpg') top right no-repeat;
+		background-size: 50%;
+	}
+	#portfolio {
+		background: linear-gradient(to right, transparent, white 100%),
+		url('../assets/2_1.jpg') no-repeat;
+		background-size: 50%;
+	}
+
+	#education {
+		background: linear-gradient(to left, transparent, white 100%),
+		url('../assets/6_1.jpg') top right no-repeat;
+		background-size: 50%;
+	}
+
+	#clean-code {
+		background:  linear-gradient(to right, transparent, white 100%),
+		url('../assets/4_1.jpg') no-repeat;
+		background-size: 50%;
+	}
+
+	.slide-tile {
+		width: 60%;
+		min-height: 60%;
+		text-align: left;
+	}
+
+	#portfolio .slide-tile {
+		width: 100%;
+		color: black;
+	}
+
+
+.landscape {
+		height: 142px;
+		opacity: .8;
+		padding-bottom: 10px;
+		display: none;;
+		float: left;
+	}
+
+	.portrait {
+		height: 300px;
+		opacity: .8;
+		display: none;
+		float: left;
+	}
+}
+
+
