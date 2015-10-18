@@ -1,108 +1,149 @@
+
 /* Colors */
+
+// descriptive names
+
+$darkgrey: slategrey;
+$boldgreen: lime;
+$dullgreen: #447766;
+// semantic names
+
+$menu-background: darkgrey;
+$link-color: $boldgreen;
+$visited-link-color: $dullgreen;
+
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 li {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .TEMP-hidden {
-  display: none; }
+  display: none;
+}
 
 .br-clear {
-  clear: both; }
+  clear: both;
+}
 
 body {
   font-family: 'Roboto Slab', serif;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 ul {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 li {
   display: inline-block;
   padding: 5px;
   background-color: slategray;
-  color: white; }
+  color: white;
+}
 
 .sig {
   height: 200px;
-  margin-left: 50px; }
+  margin-left: 50px;
+}
 
 .greeting {
   color: slategray;
   font-weight: bold;
   font-size: 4.5rem;
-  display: block; }
+  display: block;
+}
 
 #g2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-left: 20px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
+
 
 /*********************************
 * Header
 *********************************/
+
 header {
-  font-weight: 300;
-  background-color: white;
-  display: block;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2; }
+   font-weight: 300;
+   background-color: white;
+   display: block;
+   position: fixed;
+   top: 0;
+   width: 100%;  
+   z-index: 2;
+}
 
 .nav-menu {
   font-size: 1rem;
   display: block;
   width: 100%;
   bottom: 0;
-  margin: 0; }
+  margin: 0; 
+}
 
 /******************************
 *  Main content area
 ******************************/
+
 table {
-  width: 100%; }
+  width: 100%;
+}
+
+
 
 table td {
-  background-color: transparent; }
+  background-color: rgba(0,0,0,0);
+}
+
 
 .spacer {
-  background-color: transparent;
-  color: slategray; }
+  background-color: rgba(0,0,0,0);
+  color: slategray;
+}
 
 .slide-tile-container {
-  height: 80%; }
+  height: 80%;
+}
 
 #whoami .slide-tile-container {
-  float: right; }
+  float: right;
+}
 
 .left-arrow {
-  width: 10%; }
+  width: 10%;
+}
 
 .right-arrow {
   width: 10%;
-  right: 0; }
+  right: 0;
+}
 
 .slide-tile {
   opacity: 1;
-  background-color: transparent;
+  background-color: rgba(0,0,0,0);
   position: relative;
-  top: 0; }
+  top: 0;
+}
 
 .spacer h1 {
   font-size: 3rem;
   font-weight: normal;
-  padding-top: 10px; }
-
+  padding-top: 10px;
+}
 .odd .slide-tile ul {
   clear: both;
   list-style: none;
-  margin-right: 5%; }
+  margin-right: 5%;
+}
 
 #whoami {
-  margin-top: 4rem; }
+  margin-top: 4rem;
+}
 
-/*# sourceMappingURL=main.css.map */
+
