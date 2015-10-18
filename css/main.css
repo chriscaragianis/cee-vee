@@ -2,6 +2,12 @@
 * {
   box-sizing: border-box; }
 
+a {
+  color: lime; }
+
+a:visited {
+  color: #447766; }
+
 li {
   cursor: pointer; }
 
@@ -22,15 +28,18 @@ ul {
 li {
   display: inline-block;
   padding: 5px;
-  background-color: slategray;
-  color: white; }
+  background-color: darkgrey;
+  color: #fff; }
+
+li:hover {
+  color: lime; }
 
 .sig {
   height: 200px;
   margin-left: 50px; }
 
 .greeting {
-  color: slategray;
+  color: slategrey;
   font-weight: bold;
   font-size: 4.5rem;
   display: block; }
@@ -71,7 +80,7 @@ table td {
 
 .spacer {
   background-color: transparent;
-  color: slategray; }
+  color: slategrey; }
 
 .slide-tile-container {
   height: 80%; }
