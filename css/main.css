@@ -40,7 +40,8 @@ li:hover {
   color: slategrey;
   font-weight: bold;
   font-size: 4.5rem;
-  display: block; }
+  display: block;
+  margin-top: 10px; }
 
 #g2 {
   font-size: 2.5rem;
@@ -109,6 +110,11 @@ table td {
   clear: both;
   list-style: none;
   margin-right: 5%; }
+
+.slide-control {
+  text-align: center;
+  clear: both;
+  bottom: 0; }
 
 #whoami {
   margin-top: 4rem; }
