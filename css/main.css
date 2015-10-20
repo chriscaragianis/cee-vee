@@ -26,6 +26,13 @@ li {
 li:hover {
   color: #69d307; }
 
+.project-picture {
+  width: 40%; }
+
+.slide-tile img {
+  width: 100%;
+  float: left; }
+
 .TEMP-hidden {
   display: none; }
 

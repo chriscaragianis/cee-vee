@@ -63,7 +63,7 @@ img {
     width: 80%; }
 
   .project-description {
-    margin-left: 60%; }
+    float: right; }
 
   #whoami .slide-tile-container {
     width: 60vw; }

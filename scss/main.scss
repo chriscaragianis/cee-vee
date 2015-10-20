@@ -51,7 +51,14 @@ li:hover {
   color: $menu-text-hover-color;
 }
 
+.project-picture {
+  width: 40%;
+}
 
+.slide-tile img {
+  width: 100%;
+  float: left;
+}
 .TEMP-hidden {
   display: none;
 }
