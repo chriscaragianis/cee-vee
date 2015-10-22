@@ -78,8 +78,17 @@ img {
 	}
 	.slide-tile-container {
 		width: 80%;
+    padding-top: 0;
 	}
 
+  .slide-text {
+    border: 1px;
+    border-color: #ccc; 
+    margin-left: 20%;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    width: 50%;
+  }
   .project-description {
     float: right;
   }
@@ -90,7 +99,6 @@ img {
 	#whoami .slide-tile {
 		text-align: left;
 	}
-
 
 	.contact-info {
 		font-size: 3rem;
@@ -105,7 +113,6 @@ img {
 	}
 
 	.odd .slide-tile {
-		text-align: right;
 		float: right;
 		margin-bottom: 10px;
 	}
@@ -163,6 +170,17 @@ img {
 		color: black;
 	}
 
+  #portfolio .slide-text {
+    width: 25%;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 12%;
+  }
+
+  .project-picture {
+    margin-left: 12%;
+    margin-top: -5%;
+  }
 
 .landscape {
 		height: 142px;
